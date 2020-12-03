@@ -28,7 +28,7 @@ stages:
         tags: |
           $(tag)
 
-- stage: Build and push stage
+- stage: push
   displayName: Build and push stage
   jobs:  
   - job: Build
